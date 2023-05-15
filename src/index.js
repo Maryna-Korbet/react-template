@@ -12,7 +12,7 @@ import { BrowserRouter } from 'react-router-dom';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <BrowserRouter basename="/test-so-yummy">
+      <BrowserRouter basename="/react-template">
         <App />
       </BrowserRouter>
     </ThemeProvider>
